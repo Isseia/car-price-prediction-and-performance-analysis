@@ -13,7 +13,6 @@ else:
 
 @app.route("/")
 def home():
-    # Make sure you have a folder named 'templates' with 'cars.html' inside it
     return render_template("Cars.html")
 @app.route("/api/mileage-price")
 def mileage_price():
