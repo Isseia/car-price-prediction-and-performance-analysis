@@ -39,7 +39,7 @@ The project is structured into an end-to-end 5-phase data science workflow:
 │  • KaggleHub Automated  │     │  • Regex unit parsing   │     │  • Segment analysis     │
 │  • Raw CSV validation   │     │  • EV/ICE split & types │     │  • Performance score    │
 └─────────────────────────┘     └─────────────────────────┘     └─────────────────────────┘
-                                                                             │
+                                                                               │
 ┌──────────────────────────┐     ┌──────────────────────────┐                  │
 │  05. Tuning & Insights   │ <── │  04. Model Evaluation    │ <────────────────┘
 │  • RandomizedSearchCV    │     │  • Scikit-Learn Pipeline │
