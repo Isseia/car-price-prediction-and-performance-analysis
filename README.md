@@ -110,13 +110,21 @@ The top 5 mechanical attributes account for **over 48.8%** of the model's total 
 car-price-prediction-and-performance-analysis/
 ├── dataset/
 │   ├── Cars Datasets 2025.csv             # Raw automotive dataset (1,218 records)
-│   └── final_cleaned_data.csv            # Cleaned & engineered dataset (1,213 records)
+│   └── final_cleaned_data.csv             # Cleaned & engineered dataset (1,213 records)
 ├── notebook/
-│   ├── 01_import_dataset.py              # Automated data ingestion via KaggleHub
-│   └── 02_data_cleaning_&_validation1.ipynb # Data cleaning, regex parsing & type validation
-├── 03_exploratory_data_analysis.ipynb    # EDA, market tiers & performance scoring
-├── 04_modeling.ipynb                     # Scikit-learn pipelines & model benchmarking
-├── 05_tuning_&_interpretation.ipynb      # Hyperparameter tuning, residual & feature analysis
+│   ├── 01_import_dataset.py                  # Automated data ingestion via KaggleHub
+│   ├── 02_data_cleaning_&_validation1.ipynb  # Data cleaning, regex parsing & type validation
+│   ├── 03_exploratory_data_analysis.ipynb    # EDA, market tiers & performance scoring
+│   ├── 04_modeling.ipynb                     # Scikit-learn pipelines & model benchmarking
+│   └── 05_tuning_&_interpretation.ipynb      # Hyperparameter tuning, residual & feature analysis
+├── notebook/
+│   ├── Dashboard.png
+│   ├── EV vs Hybrid vs ICE Acceleration vs Top Speed Trade-off.png
+│   ├── Engine Efficiency.png
+│   ├── Fastest and Most Expensive.png
+│   ├── Prestige vs Value.png
+│   └── Seating Capacity Analysis.png
+│
 ├── requirements.txt                      # Project dependencies
 └── README.md                             # Project documentation
 ```
